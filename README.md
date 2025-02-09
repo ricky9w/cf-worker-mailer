@@ -103,6 +103,10 @@ You can even explore opitons like:
 
 - Email Libraries: Libraries like [react-email](https://github.com/resend/react-email) can help you build rich HTML emails using familiar component-based approaches. You would need to adapt the `buildEmailMessage` function to generate HTML content and set the appropriate `Content-Type` in `msg.addMessage`.
 
+## License
+
+MIT
+
 ## Reference
 
 [Send emails from Workers · Cloudflare Email Routing docs](https://developers.cloudflare.com/email-routing/email-workers/send-email-workers/)
