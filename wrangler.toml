@@ -1,0 +1,15 @@
+name = "cf-worker-mailer"
+main = "src/index.ts"
+compatibility_date = "2025-02-04"
+
+send_email = [
+  { name = "CF_MAILER", destination_address = "your-destination-email@example.com" }
+]
+
+[vars]
+SENDER_NAME = "Your Service Name"
+SENDER_EMAIL = "no-reply@your-domain.com"
+PATH_NAME = "/send"
+
+[observability]
+enabled = true
